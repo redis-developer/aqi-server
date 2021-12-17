@@ -121,7 +121,7 @@ After=network.target
 [Service]
 WorkingDirectory=/etc/redis/
 EnvironmentFile=/etc/redis/redis-service.conf
-ExecStart=/usr/local/bin/redis-server $ARG1
+ExecStart=/usr/bin/redis-server $ARG1
 Restart=on-failure
 User=pi
 
