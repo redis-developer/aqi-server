@@ -45,11 +45,9 @@ Download the latest stable release of Redis from Redis.io as a tar file:
 $ wget http://download.redis.io/redis-stable.tar.gz
 ```
 
-The version used in creating this tutorial is `6.2.6`
-
 Unpack the archived files:
 ```bash
-$ tar xzf redis-6.2.6.tar.gz
+$ tar xzf redis-stable.tar.gz
 ```
 
 ### Build
